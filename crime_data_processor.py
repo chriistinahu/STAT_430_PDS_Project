@@ -32,5 +32,5 @@ results = client.get("9hwr-2zxp", limit=10000)
 # Convert to pandas DataFrame
 crime_df = pd.DataFrame.from_records(results)
 
-print(crime_df.shape)
+print(crime_df.describe())
 
